@@ -1,0 +1,172 @@
+[
+  {
+    "version": "DiSEqC 1.0",
+    "ports": [
+      {
+        "name": "Port 1",
+        "command": "[E0 10 38 F0]"
+      },
+      {
+        "name": "Port 2",
+        "command": "[E0 10 38 F4]"
+      },
+      {
+        "name": "Port 3",
+        "command": "[E0 10 38 F8]"
+      },
+      {
+        "name": "Port 4",
+        "command": "[E0 10 38 FC]"
+      }
+    ]
+  },
+  {
+    "version": "DiSEqC 1.1",
+    "ports": [
+      {
+        "name": "Port 1",
+        "command": "[E0 10 39 F0]"
+      },
+      {
+        "name": "Port 2",
+        "command": "[E0 10 39 F1]"
+      },
+      {
+        "name": "Port 3",
+        "command": "[E0 10 39 F2]"
+      },
+      {
+        "name": "Port 4",
+        "command": "[E0 10 39 F3]"
+      },
+      {
+        "name": "Port 5",
+        "command": "[E0 10 39 F4]"
+      },
+      {
+        "name": "Port 6",
+        "command": "[E0 10 39 F5]"
+      },
+      {
+        "name": "Port 7",
+        "command": "[E0 10 39 F6]"
+      },
+      {
+        "name": "Port 8",
+        "command": "[E0 10 39 F7]"
+      },
+      {
+        "name": "Port 9",
+        "command": "[E0 10 39 F8]"
+      },
+      {
+        "name": "Port 10",
+        "command": "[E0 10 39 F9]"
+      },
+      {
+        "name": "Port 11",
+        "command": "[E0 10 39 FA]"
+      },
+      {
+        "name": "Port 12",
+        "command": "[E0 10 39 FB]"
+      },
+      {
+        "name": "Port 13",
+        "command": "[E0 10 39 FC]"
+      },
+      {
+        "name": "Port 14",
+        "command": "[E0 10 39 FD]"
+      },
+      {
+        "name": "Port 15",
+        "command": "[E0 10 39 FE]"
+      },
+      {
+        "name": "Port 16",
+        "command": "[E0 10 39 FF]"
+      }
+    ]
+  },
+  {
+    "version": "DiSEqC 1.2",
+    "ports": [
+      {
+        "name": "Store Position NN and Enable Limits",
+        "command": "[E0 31 6A 00]"
+      },
+      {
+        "name": "Goto Position NN",
+        "command": "[E0 31 6B 00]"
+      },
+      {
+        "name": "Set EAST Limit",
+        "command": "[E0 31 66]"
+      },
+      {
+        "name": "Set WEST Limit",
+        "command": "[E0 31 67]"
+      },
+      {
+        "name": "Disable Limits",
+        "command": "[E0 31 63]"
+      },
+      {
+        "name": "Re-calculate",
+        "command": "[E0 31 6F]"
+      },
+      {
+        "name": "RESET",
+        "command": "[E0 31 00]"
+      }
+    ]
+  },
+  {
+    "version": "USALS",
+    "ports": [
+      {
+        "name": "GOTO 0",
+        "command": "[E0 31 6B 00]"
+      },
+      {
+        "name": "GOTO Angular Position",
+        "command": "[E0 31 6E 00 00]"
+      }
+    ]
+  },
+  {
+    "version": "UNICABLE EN50494",
+    "ports": [
+      {
+        "name": "UB and Signal ON",
+        "command": "[E0 10 5B 00 00]"
+      },
+      {
+        "name": "UB Power OFF",
+        "command": "[E0 10 5A 00 00]"
+      },
+      {
+        "name": "UB Channel change",
+        "command": "[E0 10 5A 00 00]"
+      }
+    ]
+  },
+  {
+    "version": "Custom",
+    "ports": [
+      {
+        "name": "UB and Signal ON",
+        "command": "[E0 10 5B 00 00]"
+      },
+      {
+        "name": "UB Power OFF",
+        "command": "[E0 10 5A 00 00]"
+      },
+      {
+        "name": "UB Channel change",
+        "command": "[E0 10 5A 00 00]"
+      }
+    ]
+  }
+]

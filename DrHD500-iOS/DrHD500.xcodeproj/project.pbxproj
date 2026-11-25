@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045C6B4FFCCA4A2CB81767A6 /* DrHD500/Views/Settings/ConnectionSettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADD620CD49146338AD35C1B /* DrHD500/Views/Settings/ConnectionSettingsSheet.swift */; };
+		078AA7C185594328A96FD8E2 /* DrHD500/Models/SignalMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E3104AC2B4CEF84AB4B1F /* DrHD500/Models/SignalMetrics.swift */; };
+		127EA91967EC41A69F8EAA36 /* DrHD500/Models/DrHDPackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E9C8E56C549DD90595A80 /* DrHD500/Models/DrHDPackets.swift */; };
+		299B62A6B38D4DFD89282EB9 /* DrHD500/Views/Satellites/SatellitePickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200F0879EF04ABDBD94274D /* DrHD500/Views/Satellites/SatellitePickerSheet.swift */; };
+		2A8B5F4F365A4D75B91852D3 /* DrHD500/Views/DiSEqC/DiSEqCControlSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FDE1026B884978B006CA4A /* DrHD500/Views/DiSEqC/DiSEqCControlSheet.swift */; };
+		2D09B7BCE3D64473A9ED134A /* DrHD500/Views/Dashboard/HardwareStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43653C05A152443BA7682EC6 /* DrHD500/Views/Dashboard/HardwareStatusBar.swift */; };
+		36CA5CFC29924BE9A2E34BC7 /* DrHD500/Communication/BLETransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6DF7B5B7B4DC59D1EC40C /* DrHD500/Communication/BLETransport.swift */; };
+		36EFD180567B435CA39295F4 /* DrHD500/Models/DrHDFramer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FCFD6D10B5400AB162CCC9 /* DrHD500/Models/DrHDFramer.swift */; };
+		49BE8CE6BB47463F9C89BD7B /* DrHD500/App/DrHD500App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610373A9796246168DE9C957 /* DrHD500/App/DrHD500App.swift */; };
+		4DB50B6632F047178D4D26D1 /* DrHD500/Audio/AudioToneGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10EA27BB239490CBDB2697E /* DrHD500/Audio/AudioToneGenerator.swift */; };
+		50776F4C1FDA47DD95112F81 /* DrHD500/Models/ConstellationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE79E2809EC4382A036CA23 /* DrHD500/Models/ConstellationModel.swift */; };
+		53DBF34F82BC47C8900CAF9E /* DrHD500/Communication/DeviceSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE47D7D665D4196A9EECD72 /* DrHD500/Communication/DeviceSession.swift */; };
+		56FE1E147BDA49618ED50053 /* DrHD500/Resources/beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD0F1DAB9C87441EB42FBF0A /* DrHD500/Resources/beep.wav */; };
+		5C031FAE4B47481AAA9F16F8 /* DrHD500/Models/SpectrumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A26B637131F4C7BAB7554CA /* DrHD500/Models/SpectrumModel.swift */; };
+		5FA507A10B0B4EEABDEC37C9 /* DrHD500/Views/Components/CircularGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F26CF13AA86443697B84866 /* DrHD500/Views/Components/CircularGaugeView.swift */; };
+		69CD7E612161466F9282A74F /* DrHD500/Resources/diseqc.json in Resources */ = {isa = PBXBuildFile; fileRef = 9AC6EA0408FE4AC28F3B9C21 /* DrHD500/Resources/diseqc.json */; };
+		7E914C42B3CF43259F0333FC /* DrHD500/Models/DiSEqCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0AA4D3D49B44B68AC0AE05 /* DrHD500/Models/DiSEqCModel.swift */; };
+		8E36C149D28D4F9BBC6B6BC4 /* DrHD500/Views/Constellation/ConstellationScatterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BC12864B55404A8234D102 /* DrHD500/Views/Constellation/ConstellationScatterView.swift */; };
+		9125187881BD4DC68963C430 /* DrHD500/Communication/TCPTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86BE649D5614A2DAC8B219D /* DrHD500/Communication/TCPTransport.swift */; };
+		C1082367E83A4CFA93E9320D /* DrHD500/Communication/SatFinderTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A231EEE5EC2E4F31A540D118 /* DrHD500/Communication/SatFinderTransport.swift */; };
+		C89AF44B938B4EE295184758 /* DrHD500/Views/Dashboard/SignalGaugesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A5384AA204F5B8B8DD592 /* DrHD500/Views/Dashboard/SignalGaugesView.swift */; };
+		CD1206A6F54548CFB2F6F4F3 /* DrHD500/Models/HardwareTelemetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A8DEE783DA45D5BC8E51E6 /* DrHD500/Models/HardwareTelemetry.swift */; };
+		D3A06AB466BD448881A0F1E8 /* DrHD500/Resources/converters.json in Resources */ = {isa = PBXBuildFile; fileRef = 25298E8DD6E24832994E7BE3 /* DrHD500/Resources/converters.json */; };
+		D59E288F9BE14565BD1FE466 /* DrHD500/Models/SatelliteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4116EBD53ABB4EC6B83AB19A /* DrHD500/Models/SatelliteData.swift */; };
+		D980F01B99794FD486BE8B1B /* DrHD500/Models/CRC8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654F5761AC44BF29E3A8395 /* DrHD500/Models/CRC8.swift */; };
+		DFD907F05E3648BCAFA2935E /* DrHD500/Communication/MockTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4C91A2E213469085606EA8 /* DrHD500/Communication/MockTransport.swift */; };
+		E1B985D4770E4C5BA83D111A /* DrHD500/Views/Spectrum/SpectrumChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827FF6F6A0A4E6FBCE02B9A /* DrHD500/Views/Spectrum/SpectrumChartView.swift */; };
+		EC19D05B34A04B33A7140698 /* DrHD500/Views/ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ACC9BB70124551B05913F1 /* DrHD500/Views/ContentView.swift */; };
+		F644B7B0BA974AA482899B14 /* DrHD500/Resources/satellites.json in Resources */ = {isa = PBXBuildFile; fileRef = C12B6FC2911D4BD498AB35F5 /* DrHD500/Resources/satellites.json */; };
+		E1A000010000000000000001 /* DrHD500/Models/TerrestrialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B000010000000000000001 /* DrHD500/Models/TerrestrialData.swift */; };
+		E1A000020000000000000002 /* DrHD500/Resources/terrestrial.json in Resources */ = {isa = PBXBuildFile; fileRef = E1B000020000000000000002 /* DrHD500/Resources/terrestrial.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01FCFD6D10B5400AB162CCC9 /* DrHD500/Models/DrHDFramer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Models/DrHDFramer.swift; sourceTree = "<group>"; };
+		0C0AA4D3D49B44B68AC0AE05 /* DrHD500/Models/DiSEqCModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Models/DiSEqCModel.swift; sourceTree = "<group>"; };
+		1827FF6F6A0A4E6FBCE02B9A /* DrHD500/Views/Spectrum/SpectrumChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Views/Spectrum/SpectrumChartView.swift; sourceTree = "<group>"; };
+		1CBEC65D37244D4B9029A57F /* DrHD500.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrHD500.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2200F0879EF04ABDBD94274D /* DrHD500/Views/Satellites/SatellitePickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Views/Satellites/SatellitePickerSheet.swift; sourceTree = "<group>"; };
+		25298E8DD6E24832994E7BE3 /* DrHD500/Resources/converters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DrHD500/Resources/converters.json; sourceTree = "<group>"; };
+		2FE47D7D665D4196A9EECD72 /* DrHD500/Communication/DeviceSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Communication/DeviceSession.swift; sourceTree = "<group>"; };
+		33ACC9BB70124551B05913F1 /* DrHD500/Views/ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Views/ContentView.swift; sourceTree = "<group>"; };
+		3DE79E2809EC4382A036CA23 /* DrHD500/Models/ConstellationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Models/ConstellationModel.swift; sourceTree = "<group>"; };
+		4116EBD53ABB4EC6B83AB19A /* DrHD500/Models/SatelliteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Models/SatelliteData.swift; sourceTree = "<group>"; };
+		43653C05A152443BA7682EC6 /* DrHD500/Views/Dashboard/HardwareStatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Views/Dashboard/HardwareStatusBar.swift; sourceTree = "<group>"; };
+		4F26CF13AA86443697B84866 /* DrHD500/Views/Components/CircularGaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Views/Components/CircularGaugeView.swift; sourceTree = "<group>"; };
+		56A8DEE783DA45D5BC8E51E6 /* DrHD500/Models/HardwareTelemetry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Models/HardwareTelemetry.swift; sourceTree = "<group>"; };
+		610373A9796246168DE9C957 /* DrHD500/App/DrHD500App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/App/DrHD500App.swift; sourceTree = "<group>"; };
+		6ADD620CD49146338AD35C1B /* DrHD500/Views/Settings/ConnectionSettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Views/Settings/ConnectionSettingsSheet.swift; sourceTree = "<group>"; };
+		775E3104AC2B4CEF84AB4B1F /* DrHD500/Models/SignalMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Models/SignalMetrics.swift; sourceTree = "<group>"; };
+		8A26B637131F4C7BAB7554CA /* DrHD500/Models/SpectrumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Models/SpectrumModel.swift; sourceTree = "<group>"; };
+		9654F5761AC44BF29E3A8395 /* DrHD500/Models/CRC8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Models/CRC8.swift; sourceTree = "<group>"; };
+		97BC12864B55404A8234D102 /* DrHD500/Views/Constellation/ConstellationScatterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Views/Constellation/ConstellationScatterView.swift; sourceTree = "<group>"; };
+		9AC6EA0408FE4AC28F3B9C21 /* DrHD500/Resources/diseqc.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DrHD500/Resources/diseqc.json; sourceTree = "<group>"; };
+		9B4C91A2E213469085606EA8 /* DrHD500/Communication/MockTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Communication/MockTransport.swift; sourceTree = "<group>"; };
+		A231EEE5EC2E4F31A540D118 /* DrHD500/Communication/SatFinderTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Communication/SatFinderTransport.swift; sourceTree = "<group>"; };
+		A40F6DD1CDA64CCBA3B2674B /* DrHD500/App/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DrHD500/App/Info.plist; sourceTree = "<group>"; };
+		B10EA27BB239490CBDB2697E /* DrHD500/Audio/AudioToneGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Audio/AudioToneGenerator.swift; sourceTree = "<group>"; };
+		C12B6FC2911D4BD498AB35F5 /* DrHD500/Resources/satellites.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DrHD500/Resources/satellites.json; sourceTree = "<group>"; };
+		C3D6DF7B5B7B4DC59D1EC40C /* DrHD500/Communication/BLETransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Communication/BLETransport.swift; sourceTree = "<group>"; };
+		CD0F1DAB9C87441EB42FBF0A /* DrHD500/Resources/beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DrHD500/Resources/beep.wav; sourceTree = "<group>"; };
+		DA9E9C8E56C549DD90595A80 /* DrHD500/Models/DrHDPackets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Models/DrHDPackets.swift; sourceTree = "<group>"; };
+		DE9A5384AA204F5B8B8DD592 /* DrHD500/Views/Dashboard/SignalGaugesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Views/Dashboard/SignalGaugesView.swift; sourceTree = "<group>"; };
+		E86BE649D5614A2DAC8B219D /* DrHD500/Communication/TCPTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Communication/TCPTransport.swift; sourceTree = "<group>"; };
+		F9FDE1026B884978B006CA4A /* DrHD500/Views/DiSEqC/DiSEqCControlSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Views/DiSEqC/DiSEqCControlSheet.swift; sourceTree = "<group>"; };
+		E1B000010000000000000001 /* DrHD500/Models/TerrestrialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrHD500/Models/TerrestrialData.swift; sourceTree = "<group>"; };
+		E1B000020000000000000002 /* DrHD500/Resources/terrestrial.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DrHD500/Resources/terrestrial.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5316EF381849F8815B2D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A11ABB7161984F04A2CFA071 = {
+			isa = PBXGroup;
+			children = (
+				A40F6DD1CDA64CCBA3B2674B /* DrHD500/App/Info.plist */,
+				610373A9796246168DE9C957 /* DrHD500/App/DrHD500App.swift */,
+				C12B6FC2911D4BD498AB35F5 /* DrHD500/Resources/satellites.json */,
+				9AC6EA0408FE4AC28F3B9C21 /* DrHD500/Resources/diseqc.json */,
+				CD0F1DAB9C87441EB42FBF0A /* DrHD500/Resources/beep.wav */,
+				25298E8DD6E24832994E7BE3 /* DrHD500/Resources/converters.json */,
+				E1B000010000000000000001 /* DrHD500/Models/TerrestrialData.swift */,
+				E1B000020000000000000002 /* DrHD500/Resources/terrestrial.json */,
+				4116EBD53ABB4EC6B83AB19A /* DrHD500/Models/SatelliteData.swift */,
+				DA9E9C8E56C549DD90595A80 /* DrHD500/Models/DrHDPackets.swift */,
+				01FCFD6D10B5400AB162CCC9 /* DrHD500/Models/DrHDFramer.swift */,
+				775E3104AC2B4CEF84AB4B1F /* DrHD500/Models/SignalMetrics.swift */,
+				9654F5761AC44BF29E3A8395 /* DrHD500/Models/CRC8.swift */,
+				56A8DEE783DA45D5BC8E51E6 /* DrHD500/Models/HardwareTelemetry.swift */,
+				3DE79E2809EC4382A036CA23 /* DrHD500/Models/ConstellationModel.swift */,
+				8A26B637131F4C7BAB7554CA /* DrHD500/Models/SpectrumModel.swift */,
+				0C0AA4D3D49B44B68AC0AE05 /* DrHD500/Models/DiSEqCModel.swift */,
+				B10EA27BB239490CBDB2697E /* DrHD500/Audio/AudioToneGenerator.swift */,
+				9B4C91A2E213469085606EA8 /* DrHD500/Communication/MockTransport.swift */,
+				2FE47D7D665D4196A9EECD72 /* DrHD500/Communication/DeviceSession.swift */,
+				C3D6DF7B5B7B4DC59D1EC40C /* DrHD500/Communication/BLETransport.swift */,
+				E86BE649D5614A2DAC8B219D /* DrHD500/Communication/TCPTransport.swift */,
+				A231EEE5EC2E4F31A540D118 /* DrHD500/Communication/SatFinderTransport.swift */,
+				33ACC9BB70124551B05913F1 /* DrHD500/Views/ContentView.swift */,
+				6ADD620CD49146338AD35C1B /* DrHD500/Views/Settings/ConnectionSettingsSheet.swift */,
+				97BC12864B55404A8234D102 /* DrHD500/Views/Constellation/ConstellationScatterView.swift */,
+				2200F0879EF04ABDBD94274D /* DrHD500/Views/Satellites/SatellitePickerSheet.swift */,
+				43653C05A152443BA7682EC6 /* DrHD500/Views/Dashboard/HardwareStatusBar.swift */,
+				DE9A5384AA204F5B8B8DD592 /* DrHD500/Views/Dashboard/SignalGaugesView.swift */,
+				4F26CF13AA86443697B84866 /* DrHD500/Views/Components/CircularGaugeView.swift */,
+				F9FDE1026B884978B006CA4A /* DrHD500/Views/DiSEqC/DiSEqCControlSheet.swift */,
+				1827FF6F6A0A4E6FBCE02B9A /* DrHD500/Views/Spectrum/SpectrumChartView.swift */,
+				EC9F90F199034C5CAEDF1FE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC9F90F199034C5CAEDF1FE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CBEC65D37244D4B9029A57F /* DrHD500.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29854D27E1A348C0BFE15A39 /* DrHD500 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD77C9CDB8794D0CB90CE974 /* Build configuration list for PBXNativeTarget "DrHD500" */;
+			buildPhases = (
+				693BB3967DCC44F3839C4A63 /* Sources */,
+				EF5316EF381849F8815B2D3C /* Frameworks */,
+				CFAD29B20D1849368F4049E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrHD500;
+			productName = DrHD500;
+			productReference = 1CBEC65D37244D4B9029A57F /* DrHD500.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6F7CDDAD2EF463FB1C08DAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					29854D27E1A348C0BFE15A39 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = EC996AC79DA54B2DAA9312C3 /* Build configuration list for PBXProject "DrHD500" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A11ABB7161984F04A2CFA071;
+			productRefGroup = EC9F90F199034C5CAEDF1FE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29854D27E1A348C0BFE15A39 /* DrHD500 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFAD29B20D1849368F4049E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F644B7B0BA974AA482899B14 /* DrHD500/Resources/satellites.json in Resources */,
+				69CD7E612161466F9282A74F /* DrHD500/Resources/diseqc.json in Resources */,
+				56FE1E147BDA49618ED50053 /* DrHD500/Resources/beep.wav in Resources */,
+				D3A06AB466BD448881A0F1E8 /* DrHD500/Resources/converters.json in Resources */,
+				E1A000020000000000000002 /* DrHD500/Resources/terrestrial.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		693BB3967DCC44F3839C4A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BE8CE6BB47463F9C89BD7B /* DrHD500/App/DrHD500App.swift in Sources */,
+				D59E288F9BE14565BD1FE466 /* DrHD500/Models/SatelliteData.swift in Sources */,
+				127EA91967EC41A69F8EAA36 /* DrHD500/Models/DrHDPackets.swift in Sources */,
+				36EFD180567B435CA39295F4 /* DrHD500/Models/DrHDFramer.swift in Sources */,
+				078AA7C185594328A96FD8E2 /* DrHD500/Models/SignalMetrics.swift in Sources */,
+				D980F01B99794FD486BE8B1B /* DrHD500/Models/CRC8.swift in Sources */,
+				CD1206A6F54548CFB2F6F4F3 /* DrHD500/Models/HardwareTelemetry.swift in Sources */,
+				50776F4C1FDA47DD95112F81 /* DrHD500/Models/ConstellationModel.swift in Sources */,
+				5C031FAE4B47481AAA9F16F8 /* DrHD500/Models/SpectrumModel.swift in Sources */,
+				7E914C42B3CF43259F0333FC /* DrHD500/Models/DiSEqCModel.swift in Sources */,
+				4DB50B6632F047178D4D26D1 /* DrHD500/Audio/AudioToneGenerator.swift in Sources */,
+				DFD907F05E3648BCAFA2935E /* DrHD500/Communication/MockTransport.swift in Sources */,
+				53DBF34F82BC47C8900CAF9E /* DrHD500/Communication/DeviceSession.swift in Sources */,
+				36CA5CFC29924BE9A2E34BC7 /* DrHD500/Communication/BLETransport.swift in Sources */,
+				9125187881BD4DC68963C430 /* DrHD500/Communication/TCPTransport.swift in Sources */,
+				C1082367E83A4CFA93E9320D /* DrHD500/Communication/SatFinderTransport.swift in Sources */,
+				EC19D05B34A04B33A7140698 /* DrHD500/Views/ContentView.swift in Sources */,
+				045C6B4FFCCA4A2CB81767A6 /* DrHD500/Views/Settings/ConnectionSettingsSheet.swift in Sources */,
+				8E36C149D28D4F9BBC6B6BC4 /* DrHD500/Views/Constellation/ConstellationScatterView.swift in Sources */,
+				299B62A6B38D4DFD89282EB9 /* DrHD500/Views/Satellites/SatellitePickerSheet.swift in Sources */,
+				2D09B7BCE3D64473A9ED134A /* DrHD500/Views/Dashboard/HardwareStatusBar.swift in Sources */,
+				C89AF44B938B4EE295184758 /* DrHD500/Views/Dashboard/SignalGaugesView.swift in Sources */,
+				5FA507A10B0B4EEABDEC37C9 /* DrHD500/Views/Components/CircularGaugeView.swift in Sources */,
+				2A8B5F4F365A4D75B91852D3 /* DrHD500/Views/DiSEqC/DiSEqCControlSheet.swift in Sources */,
+				E1B985D4770E4C5BA83D111A /* DrHD500/Views/Spectrum/SpectrumChartView.swift in Sources */,
+				E1A000010000000000000001 /* DrHD500/Models/TerrestrialData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09531AEA48274C2D83B02E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56GZX823AA;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DrHD500/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drhd.DrHD500;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3519EE2E983E463288F9C2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56GZX823AA;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DrHD500/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drhd.DrHD500;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFEF7EFA3412400199A5E0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FE5A52884C894FF093F2780D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC996AC79DA54B2DAA9312C3 /* Build configuration list for PBXProject "DrHD500" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5A52884C894FF093F2780D /* Debug */,
+				AFEF7EFA3412400199A5E0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD77C9CDB8794D0CB90CE974 /* Build configuration list for PBXNativeTarget "DrHD500" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09531AEA48274C2D83B02E6C /* Debug */,
+				3519EE2E983E463288F9C2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6F7CDDAD2EF463FB1C08DAA /* Project object */;
+}

@@ -1,0 +1,281 @@
+[
+  {
+    "title": "TV VHF",
+    "subtitle": "(40...250MHz)",
+    "lowFreq": 0,
+    "highFreq": 0,
+    "minIf": 40,
+    "maxIf": 340,
+    "mode": 1
+  },
+  {
+    "title": "TV VHF, UHF",
+    "subtitle": "(250...950MHz)",
+    "lowFreq": 0,
+    "highFreq": 0,
+    "minIf": 250,
+    "maxIf": 950,
+    "mode": 1
+  },
+  {
+    "title": "GSM FULL",
+    "subtitle": "(250...2250MHz)",
+    "lowFreq": 0,
+    "highFreq": 0,
+    "minIf": 250,
+    "maxIf": 2250,
+    "mode": 2
+  },
+  {
+    "title": "SAT IF LO",
+    "subtitle": "(250...950MHz)",
+    "lowFreq": 0,
+    "highFreq": 0,
+    "minIf": 250,
+    "maxIf": 950,
+    "mode": 0
+  },
+  {
+    "title": "SAT IF HI",
+    "subtitle": "(950...2150MHz)",
+    "lowFreq": 0,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "SAT IF FULL",
+    "subtitle": "(250...2250MHz)",
+    "lowFreq": 0,
+    "highFreq": 0,
+    "minIf": 250,
+    "maxIf": 2250,
+    "mode": 0
+  },
+  {
+    "title": "3620",
+    "subtitle": "(1470...2670MHz)",
+    "lowFreq": 3620,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "5150",
+    "subtitle": "(3000...4200MHz)",
+    "lowFreq": 5150,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "5150/5750",
+    "subtitle": "(3700...4200MHz)",
+    "lowFreq": 5150,
+    "highFreq": 5750,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "5000/5800",
+    "subtitle": "(3400...4200MHz)",
+    "lowFreq": 5000,
+    "highFreq": 5800,
+    "minIf": 800,
+    "maxIf": 2400,
+    "mode": 0
+  },
+  {
+    "title": "5750",
+    "subtitle": "(3600...4800MHz)",
+    "lowFreq": 5750,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "5950",
+    "subtitle": "(3800...5000MHz)",
+    "lowFreq": 5950,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "9750/10600",
+    "subtitle": "(10700...12750MHz)",
+    "lowFreq": 9750,
+    "highFreq": 10600,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "9750",
+    "subtitle": "(10700...11900MHz)",
+    "lowFreq": 9750,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "10000",
+    "subtitle": "(10950....12150MHz)",
+    "lowFreq": 10000,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "10250",
+    "subtitle": "(11200....12400MHz)",
+    "lowFreq": 10250,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "10400",
+    "subtitle": "(11350....12550MHz)",
+    "lowFreq": 10400,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "10500",
+    "subtitle": "(11450....12650MHz)",
+    "lowFreq": 10500,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "10600",
+    "subtitle": "(11550....12750MHz)",
+    "lowFreq": 10600,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "10700",
+    "subtitle": "(11650....12850MHz)",
+    "lowFreq": 10700,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "10750",
+    "subtitle": "(11700...12900MHz)",
+    "lowFreq": 10750,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "11250",
+    "subtitle": "(12200....13400MHz)",
+    "lowFreq": 11250,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "11300",
+    "subtitle": "(12250....13450MHz)",
+    "lowFreq": 11300,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "17250",
+    "subtitle": "(18200....19400MHz)",
+    "lowFreq": 17250,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "18250",
+    "subtitle": "(19200....20400MHz)",
+    "lowFreq": 18250,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "18750",
+    "subtitle": "(19700....20900MHz)",
+    "lowFreq": 18750,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "19250",
+    "subtitle": "(20200....21400MHz)",
+    "lowFreq": 19250,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "19750",
+    "subtitle": "(20700....21900MHz)",
+    "lowFreq": 19750,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "20250",
+    "subtitle": "(21200....22400MHz)",
+    "lowFreq": 20250,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "21000",
+    "subtitle": "(21950....23150MHz)",
+    "lowFreq": 21000,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 0
+  },
+  {
+    "title": "21150",
+    "subtitle": "(19000....20200MHz)",
+    "lowFreq": 21150,
+    "highFreq": 0,
+    "minIf": 0,
+    "maxIf": 0,
+    "mode": 10
+  }
+]

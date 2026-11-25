@@ -1,0 +1,1257 @@
+[
+  {
+    "name": "VHF",
+    "channels": [
+      {
+        "channel": 1,
+        "frequencyMHz": 52.5,
+        "centreFrequencyHz": 52500000,
+        "bandwidthMHz": 7,
+        "bandwidthCode": 1,
+        "type": "DVB-T"
+      },
+      {
+        "channel": 2,
+        "frequencyMHz": 62.0,
+        "centreFrequencyHz": 62000000,
+        "bandwidthMHz": 7,
+        "bandwidthCode": 1,
+        "type": "DVB-T"
+      },
+      {
+        "channel": 3,
+        "frequencyMHz": 80.0,
+        "centreFrequencyHz": 80000000,
+        "bandwidthMHz": 7,
+        "bandwidthCode": 1,
+        "type": "DVB-T"
+      },
+      {
+        "channel": 4,
+        "frequencyMHz": 90.0,
+        "centreFrequencyHz": 90000000,
+        "bandwidthMHz": 7,
+        "bandwidthCode": 1,
+        "type": "DVB-T"
+      },
+      {
+        "channel": 5,
+        "frequencyMHz": 96.0,
+        "centreFrequencyHz": 96000000,
+        "bandwidthMHz": 7,
+        "bandwidthCode": 1,
+        "type": "DVB-T"
+      },
+      {
+        "channel": 6,
+        "frequencyMHz": 184.5,
+        "centreFrequencyHz": 184500000,
+        "bandwidthMHz": 7,
+        "bandwidthCode": 1,
+        "type": "DVB-T"
+      },
+      {
+        "channel": 7,
+        "frequencyMHz": 191.5,
+        "centreFrequencyHz": 191500000,
+        "bandwidthMHz": 7,
+        "bandwidthCode": 1,
+        "type": "DVB-T"
+      },
+      {
+        "channel": 8,
+        "frequencyMHz": 198.5,
+        "centreFrequencyHz": 198500000,
+        "bandwidthMHz": 7,
+        "bandwidthCode": 1,
+        "type": "DVB-T"
+      },
+      {
+        "channel": 9,
+        "frequencyMHz": 205.5,
+        "centreFrequencyHz": 205500000,
+        "bandwidthMHz": 7,
+        "bandwidthCode": 1,
+        "type": "DVB-T"
+      },
+      {
+        "channel": 10,
+        "frequencyMHz": 221.5,
+        "centreFrequencyHz": 221500000,
+        "bandwidthMHz": 7,
+        "bandwidthCode": 1,
+        "type": "DVB-T"
+      },
+      {
+        "channel": 11,
+        "frequencyMHz": 219.5,
+        "centreFrequencyHz": 219500000,
+        "bandwidthMHz": 7,
+        "bandwidthCode": 1,
+        "type": "DVB-T"
+      },
+      {
+        "channel": 12,
+        "frequencyMHz": 226.5,
+        "centreFrequencyHz": 226500000,
+        "bandwidthMHz": 7,
+        "bandwidthCode": 1,
+        "type": "DVB-T"
+      }
+    ]
+  },
+  {
+    "name": "Cable Channels",
+    "channels": [
+      {
+        "channel": 1,
+        "frequencyMHz": 52.5,
+        "centreFrequencyHz": 52500000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 2,
+        "frequencyMHz": 62.0,
+        "centreFrequencyHz": 62000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 3,
+        "frequencyMHz": 80.0,
+        "centreFrequencyHz": 80000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 4,
+        "frequencyMHz": 90.0,
+        "centreFrequencyHz": 90000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 5,
+        "frequencyMHz": 96.0,
+        "centreFrequencyHz": 96000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 1,
+        "frequencyMHz": 114.0,
+        "centreFrequencyHz": 114000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 2,
+        "frequencyMHz": 122.0,
+        "centreFrequencyHz": 122000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 3,
+        "frequencyMHz": 130.0,
+        "centreFrequencyHz": 130000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 4,
+        "frequencyMHz": 140.0,
+        "centreFrequencyHz": 140000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 5,
+        "frequencyMHz": 146.0,
+        "centreFrequencyHz": 146000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 6,
+        "frequencyMHz": 154.0,
+        "centreFrequencyHz": 154000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 7,
+        "frequencyMHz": 162.0,
+        "centreFrequencyHz": 162000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 8,
+        "frequencyMHz": 170.0,
+        "centreFrequencyHz": 170000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 11,
+        "frequencyMHz": 234.0,
+        "centreFrequencyHz": 234000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 12,
+        "frequencyMHz": 242.0,
+        "centreFrequencyHz": 242000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 13,
+        "frequencyMHz": 250.0,
+        "centreFrequencyHz": 250000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 14,
+        "frequencyMHz": 260.0,
+        "centreFrequencyHz": 260000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 15,
+        "frequencyMHz": 266.0,
+        "centreFrequencyHz": 266000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 16,
+        "frequencyMHz": 274.0,
+        "centreFrequencyHz": 274000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 17,
+        "frequencyMHz": 282.0,
+        "centreFrequencyHz": 282000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 18,
+        "frequencyMHz": 290.0,
+        "centreFrequencyHz": 290000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 19,
+        "frequencyMHz": 298.0,
+        "centreFrequencyHz": 298000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 20,
+        "frequencyMHz": 306.0,
+        "centreFrequencyHz": 306000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 21,
+        "frequencyMHz": 314.0,
+        "centreFrequencyHz": 314000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 22,
+        "frequencyMHz": 322.0,
+        "centreFrequencyHz": 322000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 23,
+        "frequencyMHz": 330.0,
+        "centreFrequencyHz": 330000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 24,
+        "frequencyMHz": 338.0,
+        "centreFrequencyHz": 338000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 25,
+        "frequencyMHz": 346.0,
+        "centreFrequencyHz": 346000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 26,
+        "frequencyMHz": 354.0,
+        "centreFrequencyHz": 354000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 27,
+        "frequencyMHz": 362.0,
+        "centreFrequencyHz": 362000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 28,
+        "frequencyMHz": 370.0,
+        "centreFrequencyHz": 370000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 29,
+        "frequencyMHz": 378.0,
+        "centreFrequencyHz": 378000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 30,
+        "frequencyMHz": 386.0,
+        "centreFrequencyHz": 386000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 31,
+        "frequencyMHz": 394.0,
+        "centreFrequencyHz": 394000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 32,
+        "frequencyMHz": 402.0,
+        "centreFrequencyHz": 402000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 33,
+        "frequencyMHz": 410.0,
+        "centreFrequencyHz": 410000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 34,
+        "frequencyMHz": 418.0,
+        "centreFrequencyHz": 418000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 35,
+        "frequencyMHz": 426.0,
+        "centreFrequencyHz": 426000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 36,
+        "frequencyMHz": 434.0,
+        "centreFrequencyHz": 434000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 37,
+        "frequencyMHz": 442.0,
+        "centreFrequencyHz": 442000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 38,
+        "frequencyMHz": 450.0,
+        "centreFrequencyHz": 450000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 39,
+        "frequencyMHz": 458.0,
+        "centreFrequencyHz": 458000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 40,
+        "frequencyMHz": 466.0,
+        "centreFrequencyHz": 466000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 21,
+        "frequencyMHz": 474.0,
+        "centreFrequencyHz": 474000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 22,
+        "frequencyMHz": 482.0,
+        "centreFrequencyHz": 482000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 23,
+        "frequencyMHz": 490.0,
+        "centreFrequencyHz": 490000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 24,
+        "frequencyMHz": 498.0,
+        "centreFrequencyHz": 498000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 25,
+        "frequencyMHz": 506.0,
+        "centreFrequencyHz": 506000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 26,
+        "frequencyMHz": 514.0,
+        "centreFrequencyHz": 514000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 27,
+        "frequencyMHz": 522.0,
+        "centreFrequencyHz": 522000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 28,
+        "frequencyMHz": 530.0,
+        "centreFrequencyHz": 530000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 29,
+        "frequencyMHz": 538.0,
+        "centreFrequencyHz": 538000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 30,
+        "frequencyMHz": 546.0,
+        "centreFrequencyHz": 546000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 31,
+        "frequencyMHz": 554.0,
+        "centreFrequencyHz": 554000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 32,
+        "frequencyMHz": 562.0,
+        "centreFrequencyHz": 562000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 33,
+        "frequencyMHz": 570.0,
+        "centreFrequencyHz": 570000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 34,
+        "frequencyMHz": 578.0,
+        "centreFrequencyHz": 578000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 35,
+        "frequencyMHz": 586.0,
+        "centreFrequencyHz": 586000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 36,
+        "frequencyMHz": 594.0,
+        "centreFrequencyHz": 594000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 37,
+        "frequencyMHz": 602.0,
+        "centreFrequencyHz": 602000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 38,
+        "frequencyMHz": 610.0,
+        "centreFrequencyHz": 610000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 39,
+        "frequencyMHz": 618.0,
+        "centreFrequencyHz": 618000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 40,
+        "frequencyMHz": 626.0,
+        "centreFrequencyHz": 626000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 41,
+        "frequencyMHz": 634.0,
+        "centreFrequencyHz": 634000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 42,
+        "frequencyMHz": 642.0,
+        "centreFrequencyHz": 642000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 43,
+        "frequencyMHz": 650.0,
+        "centreFrequencyHz": 650000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 44,
+        "frequencyMHz": 658.0,
+        "centreFrequencyHz": 658000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 45,
+        "frequencyMHz": 666.0,
+        "centreFrequencyHz": 666000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 46,
+        "frequencyMHz": 674.0,
+        "centreFrequencyHz": 674000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 47,
+        "frequencyMHz": 682.0,
+        "centreFrequencyHz": 682000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 48,
+        "frequencyMHz": 690.0,
+        "centreFrequencyHz": 690000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 49,
+        "frequencyMHz": 698.0,
+        "centreFrequencyHz": 698000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 50,
+        "frequencyMHz": 706.0,
+        "centreFrequencyHz": 706000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 51,
+        "frequencyMHz": 714.0,
+        "centreFrequencyHz": 714000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 52,
+        "frequencyMHz": 722.0,
+        "centreFrequencyHz": 722000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 53,
+        "frequencyMHz": 730.0,
+        "centreFrequencyHz": 730000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 54,
+        "frequencyMHz": 738.0,
+        "centreFrequencyHz": 738000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 55,
+        "frequencyMHz": 746.0,
+        "centreFrequencyHz": 746000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 56,
+        "frequencyMHz": 754.0,
+        "centreFrequencyHz": 754000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 57,
+        "frequencyMHz": 762.0,
+        "centreFrequencyHz": 762000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 58,
+        "frequencyMHz": 770.0,
+        "centreFrequencyHz": 770000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 59,
+        "frequencyMHz": 778.0,
+        "centreFrequencyHz": 778000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 60,
+        "frequencyMHz": 786.0,
+        "centreFrequencyHz": 786000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 61,
+        "frequencyMHz": 794.0,
+        "centreFrequencyHz": 794000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 62,
+        "frequencyMHz": 802.0,
+        "centreFrequencyHz": 802000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 63,
+        "frequencyMHz": 810.0,
+        "centreFrequencyHz": 810000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 64,
+        "frequencyMHz": 818.0,
+        "centreFrequencyHz": 818000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 65,
+        "frequencyMHz": 826.0,
+        "centreFrequencyHz": 826000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 66,
+        "frequencyMHz": 834.0,
+        "centreFrequencyHz": 834000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 67,
+        "frequencyMHz": 842.0,
+        "centreFrequencyHz": 842000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 68,
+        "frequencyMHz": 850.0,
+        "centreFrequencyHz": 850000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 69,
+        "frequencyMHz": 858.0,
+        "centreFrequencyHz": 858000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      },
+      {
+        "channel": 70,
+        "frequencyMHz": 866.0,
+        "centreFrequencyHz": 866000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-C"
+      }
+    ]
+  },
+  {
+    "name": "UHF",
+    "channels": [
+      {
+        "channel": 21,
+        "frequencyMHz": 474.0,
+        "centreFrequencyHz": 474000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 22,
+        "frequencyMHz": 482.0,
+        "centreFrequencyHz": 482000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 23,
+        "frequencyMHz": 490.0,
+        "centreFrequencyHz": 490000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 24,
+        "frequencyMHz": 498.0,
+        "centreFrequencyHz": 498000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 25,
+        "frequencyMHz": 506.0,
+        "centreFrequencyHz": 506000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 26,
+        "frequencyMHz": 514.0,
+        "centreFrequencyHz": 514000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 27,
+        "frequencyMHz": 522.0,
+        "centreFrequencyHz": 522000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 28,
+        "frequencyMHz": 530.0,
+        "centreFrequencyHz": 530000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 29,
+        "frequencyMHz": 538.0,
+        "centreFrequencyHz": 538000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 30,
+        "frequencyMHz": 546.0,
+        "centreFrequencyHz": 546000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 31,
+        "frequencyMHz": 554.0,
+        "centreFrequencyHz": 554000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 32,
+        "frequencyMHz": 562.0,
+        "centreFrequencyHz": 562000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 33,
+        "frequencyMHz": 570.0,
+        "centreFrequencyHz": 570000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 34,
+        "frequencyMHz": 578.0,
+        "centreFrequencyHz": 578000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 35,
+        "frequencyMHz": 586.0,
+        "centreFrequencyHz": 586000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 36,
+        "frequencyMHz": 594.0,
+        "centreFrequencyHz": 594000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 37,
+        "frequencyMHz": 602.0,
+        "centreFrequencyHz": 602000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 38,
+        "frequencyMHz": 610.0,
+        "centreFrequencyHz": 610000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 39,
+        "frequencyMHz": 618.0,
+        "centreFrequencyHz": 618000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 40,
+        "frequencyMHz": 626.0,
+        "centreFrequencyHz": 626000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 41,
+        "frequencyMHz": 634.0,
+        "centreFrequencyHz": 634000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 42,
+        "frequencyMHz": 642.0,
+        "centreFrequencyHz": 642000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 43,
+        "frequencyMHz": 650.0,
+        "centreFrequencyHz": 650000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 44,
+        "frequencyMHz": 658.0,
+        "centreFrequencyHz": 658000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 45,
+        "frequencyMHz": 666.0,
+        "centreFrequencyHz": 666000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 46,
+        "frequencyMHz": 674.0,
+        "centreFrequencyHz": 674000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 47,
+        "frequencyMHz": 682.0,
+        "centreFrequencyHz": 682000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 48,
+        "frequencyMHz": 690.0,
+        "centreFrequencyHz": 690000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 49,
+        "frequencyMHz": 698.0,
+        "centreFrequencyHz": 698000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 50,
+        "frequencyMHz": 706.0,
+        "centreFrequencyHz": 706000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 51,
+        "frequencyMHz": 714.0,
+        "centreFrequencyHz": 714000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 52,
+        "frequencyMHz": 722.0,
+        "centreFrequencyHz": 722000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 53,
+        "frequencyMHz": 730.0,
+        "centreFrequencyHz": 730000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 54,
+        "frequencyMHz": 738.0,
+        "centreFrequencyHz": 738000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 55,
+        "frequencyMHz": 746.0,
+        "centreFrequencyHz": 746000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 56,
+        "frequencyMHz": 754.0,
+        "centreFrequencyHz": 754000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 57,
+        "frequencyMHz": 762.0,
+        "centreFrequencyHz": 762000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 58,
+        "frequencyMHz": 770.0,
+        "centreFrequencyHz": 770000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 59,
+        "frequencyMHz": 778.0,
+        "centreFrequencyHz": 778000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 60,
+        "frequencyMHz": 786.0,
+        "centreFrequencyHz": 786000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 61,
+        "frequencyMHz": 794.0,
+        "centreFrequencyHz": 794000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 62,
+        "frequencyMHz": 802.0,
+        "centreFrequencyHz": 802000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 63,
+        "frequencyMHz": 810.0,
+        "centreFrequencyHz": 810000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 64,
+        "frequencyMHz": 818.0,
+        "centreFrequencyHz": 818000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 65,
+        "frequencyMHz": 826.0,
+        "centreFrequencyHz": 826000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 66,
+        "frequencyMHz": 834.0,
+        "centreFrequencyHz": 834000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 67,
+        "frequencyMHz": 842.0,
+        "centreFrequencyHz": 842000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 68,
+        "frequencyMHz": 850.0,
+        "centreFrequencyHz": 850000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 69,
+        "frequencyMHz": 858.0,
+        "centreFrequencyHz": 858000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      },
+      {
+        "channel": 70,
+        "frequencyMHz": 866.0,
+        "centreFrequencyHz": 866000000,
+        "bandwidthMHz": 8,
+        "bandwidthCode": 0,
+        "type": "DVB-T2"
+      }
+    ]
+  }
+]

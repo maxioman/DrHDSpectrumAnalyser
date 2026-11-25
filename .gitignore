@@ -1,0 +1,23 @@
+# OS & Editor
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Build & Dependency Caches
+DrHD500-Desktop/build/
+DrHD500-Desktop/DrHD500Desktop
+DrHD500-Desktop/imgui.ini
+DrHD500-iOS/.build/
+DrHD500-ESP32/.pio/
+*.o
+*.a
+*.dylib
+test_bt
+
+# Reverse Engineering Artifacts & Binaries
+Dr.HD500ComboBT.apk
+decompiled/
+jadx_bt/
+jadx_bt_debug/
